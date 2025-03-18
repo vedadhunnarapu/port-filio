@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>portfolio</title>
+</head>
+<body>
+  <div class="navbar">
+  <nav class="heading">
+    <div class="links2">
+    <a href="#" class="links">home</a>
+    <a href="#" class="links">about</a>
+    <a href="#" class="links">skills</a>
+    <a href="#" class="links">services</a>
+    <a href="#" class="links">contact</a>
+  </div>
+   
+  
+    </div>
+  </nav>
+</div>
+  
+  <div class="forflex">
+  <div>
+    <img src="https://img.freepik.com/premium-photo/close-up-person-with-green-bag-green-background-generative-ai_1035763-24470.jpg">
+  </div>
+  <div class="flex">
+    <div class="surya">
+  <pre class="matter">
+Hey I'm VEDA
+I'm a FRONTEND DEVELOPER
+  </pre>
+  <div>
+  <p class="flex2"> a passionate front-end developer with a keen curiosity for crafting visually appealing and user-friendly websites. I thrive on turning design concepts into interactive and responsive web pages that provide seamless user experiences. Whether it's working with HTML, CSS, or JavaScript, I am always eager to learn new technologies and improve my skills. My enthusiasm for front-end development drives me to constantly explore creative solutions to real-world problems, and I'm excited to bring fresh ideas and innovative designs to every project I work on.</p>
+</div>
+<div class="subbu">
+  <div class="symbols">
+    <i  class="fa-brands fa-github"></i>
+    <i  class="fa-brands fa-facebook"></i>
+    <i  class="fa-brands fa-linkedin"></i>
+    <i  class="fa-brands fa-square-twitter"></i>
+  </div>
+  <div class="hirebtn">
+    <button class="btn" >hire me</button>
+  </div>
+</div>
+  </div>
+  </div>
+</div>
+
+<section class="aboutsec">
+<div class="about">
+  <div class="title">
+  <div class="titlecontent"><span >About Me</span></div>
+  </div>
+  <div class="aboutme">
+    <div class="code">Coding is my passion</div>
+    <p class="aboutcon">I’m a passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. I thrive on creating intuitive and visually appealing web experiences that engage users and solve problems. With a keen eye for detail, I ensure that every project I work on is responsive, accessible, and user-friendly. I'm experienced in using frameworks like React, Vue, and Angular to build dynamic, high-performance web applications. I stay up to date with the latest trends in web design and development to implement cutting-edge features. My focus is on writing clean, efficient, and maintainable code. Collaboration with teams to turn ideas into functional websites is what drives me. I love challenges and continuously seek opportunities to grow my skills. In my free time, I enjoy experimenting with new design concepts and contributing to open-source projects. Let's build something amazing together!</p>
+
+  </div>
+  <div class="resume">
+    <button>Download CV</button>
+  </div>
+</div>
+</section>
+
+<section class="skillssec">
+  <div class="skills">
+  <div class="skillscontent"><span>My Skills</span></div>
+  </div>
+<div class="skillflex2">
+  <div class="skillflex">
+  <div class="skillscontent2">Skills Reflects Our Knowledge  </div>
+  <div>
+    <p class="content">As a frontend developer, I excel in HTML, CSS, JavaScript, and PHP, enabling me to create dynamic and responsive websites. I structure clean, semantic HTML to ensure accessibility and SEO optimization. With CSS, I use Flexbox, Grid, and SASS to design responsive, maintainable layouts. JavaScript allows me to add interactivity, using ES6+ features, DOM manipulation, and libraries like React to enhance user experience.
+
+      PHP complements my frontend skills by enabling server-side functionality, including form handling and database interaction. I utilize PHP for dynamic content generation, ensuring smooth integration with front-end elements. My expertise in these technologies allows me to build user-friendly, functional, and performance-optimized websites.</p>
+  </div>
+  </div>
+  <div class="boxes">
+  <div >
+    
+    <div class="sub">HTML</div>
+    <div class="subtopic">90%</div>
+    <div class="sub">CSS</div>
+    <div class="subtopic">80%</div>
+    <div class="sub">JavaScript</div>
+    <div class="subtopic">80%</div>
+    <div class="sub">React</div>
+    <div class="subtopic">60%</div>
+  
+  </div>
+</div>
+</div>
+</section>
+
+<section class="ser">
+  <div class="myservices">
+    <div class="services"><span>My Services</span></div>
+  </div>
+  <section class="development">
+    <div class="webdev">
+<div class="position">
+  <div><i class="fa-solid fa-desktop"></i></div>
+      <div>
+        <div><span class="att">Web Development</span></div>
+      </div>
+  
+</div>
+  <p class="webcontent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque error, ratione voluptatum modi facere doloribus deleniti maiores alias mollitia numquam cum quo! Maxime officiis tempore libero culpa magni autem? Quo?</p>
+</div>
+
+<div class="webdev">
+  <div class="position">
+    <div> <i class="fa-solid fa-paintbrush"></i></div>
+  <div>
+    <div><span class="att">Graphic Design</span></div>
+  </div>
+  
+
+</div>
+  <p class="webcontent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque error, ratione voluptatum modi facere doloribus deleniti maiores alias mollitia numquam cum quo! Maxime officiis tempore libero culpa magni autem? Quo?</p>
+</div>
+
+<div class="webdev">
+  <div class="position">
+    <div><i class="fa-solid fa-chart-line"></i></div>
+  <div>
+    <div><span class="att">Digital marketing</span></div>
+  </div>
+ 
+
+  </div>
+  
+  <p class="webcontent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque error, ratione voluptatum modi facere doloribus deleniti maiores alias mollitia numquam cum quo! Maxime officiis tempore libero culpa magni autem? Quo?</p>
+
+</div>
+
+<div class="webdev">
+  <div class="position">
+    <div><i class="fa-solid fa-icons"></i></div>
+  <div>
+    <div><span class="att">icon Design</span></div>
+  </div>
+  
+
+  </div >
+  <p class="webcontent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque error, ratione voluptatum modi facere doloribus deleniti maiores alias mollitia numquam cum quo! Maxime officiis tempore libero culpa magni autem? Quo?</p>
+</div>
+
+<div class="webdev">
+  <div class="position">
+    <div><i class="fa-solid fa-camera-retro"></i></div>
+  <div>
+    <div><span class="att">photography</span></div>
+  </div>
+ 
+
+  </div>
+  <p class="webcontent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque error, ratione voluptatum modi facere doloribus deleniti maiores alias mollitia numquam cum quo! Maxime officiis tempore libero culpa magni autem? Quo?</p>
+</div>
+
+<div class="webdev">
+  <div class="position">
+    <div><i class="fa-brands fa-app-store"></i></div>
+  <div>
+    <div><span class="att">Apps development</span></div>
+  </div>
+ 
+
+</div>
+  <p class="webcontent">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque error, ratione voluptatum modi facere doloribus deleniti maiores alias mollitia numquam cum quo! Maxime officiis tempore libero culpa magni autem? Quo?</p>
+</div>
+
+
+  </section>
+ 
+<section class="seccon" >
+  <div><span class="contact">Contact Me</span></div>
+  <div class="contactcontent">have any project?</div>
+  <div>
+    <p class="contactcontent2">"Looking to bring your digital ideas to life? As a passionate front-end developer, I specialize in creating visually stunning, user-friendly websites and web applications that deliver exceptional user experiences. Whether you need a fresh design, a responsive layout, or seamless functionality, I'm here to turn your vision into reality. Let's collaborate and build something amazing! Feel free to reach out to discuss your next project."</p>
+  </div>
+  <div class="contactbtn">
+    <button class="contactbutton">Let's Chat</button>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div><span>Created by</span></div>
+  <pre><a href="#"> kedhatisurya </a></pre>
+  <p>All rights reserved 2025</p>
+
+</footer>
+</body>
+</html>
