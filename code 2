@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+.navbar{
+    display: flex;
+    display: block;
+}
+.links{
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 1.2rem;
+}
+.links a::before{
+    position:relative;
+    content: "";
+    bottom:0px ;
+    left:0;
+    width:0%;
+    height:3px;
+    background-color: #50b74b;
+    transition:0.2s ease;
+}
+.links a::before{
+    position: absolute;
+    content: "";
+    bottom:-3px ;
+    left:0;
+    width:100%;
+    height:3px;
+    background-color: #50b74b;
+    transition:0.2s ease;
+}
+.links a:hover::before{
+    width:0%;
+}
+.links a:hover{
+    color:#b74b7b ;
+    width: 100%;
+}
+.dropdown{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    transform: translateY(-500px);
+    width: 100%;
+    height: auto;
+    backdrop-filter: blur(4px) brightness(40%);
+    box-shadow: 0 0 20px black;
+    transition: 0.2s linear;
+
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.links{
+    display: flex;
+    display: inline;
+    padding-right: 85px;
+    position: relative;
+    left: 7cm;
+   
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+img:hover{
+    animation: animate 1s ease-in-out;
+}
+@keyframes animate{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.05;
+    }
+    100%{
+        scale: 1;
+    }
+}
+.forflex{
+    display: flex;
+   align-items: center;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    display: block;
+    margin-left: 87px;
+    align-items: center;
+}
+
+.matter{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.flex2{
+    
+    height: 250px;
+    width: 700px;
+}
+.symbols{
+    padding-top: 30px;
+    display: inline-flex;
+    padding-bottom: 20px;
+    width: 250px;
+    
+    justify-content: space-between;
+   
+}
+ 
+i{
+    color: rgb(184, 54, 54);
+    
+}
+section.about{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Poppins',sans-serif;
+}
+.about.aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-weight: 900;
+    font-size: xx-large;
+   
+}
+.titlecontent{
+    
+    text-decoration: underline ;
+    text-decoration-color: #50b74b;
+}
+.resume button{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #50b74b;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    transition: 0.2s linear;
+
+}
+.resume button:hover{
+    background-color: transparent;
+    scale: 1.1;
+    color: #50b74b;
+    font-weight: 900;
+    outline: 0;
+    border: 0;
+
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.btn{
+    margin-left: 30px;
+    width: 200px;
+    height: 27px;
+    background-color: #50b74b;
+    color: white;
+    font-size: medium;
+    border-radius: 6px;
+    border: none;
+    transition: 0.2s linear;
+}
+.btn:hover{
+    background-color: transparent;
+    scale: 1.1;
+    color: #50b74b;
+    font-weight: 700;
+    outline: 0;
+    border: 0;
+
+}
+.symbols:hover{
+    cursor: pointer;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.skillscontent{
+    text-decoration:underline;
+    text-decoration-color: #50b74b;
+}
+.skillscontent2{
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 90px;
+    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+}
+.skillflex{
+    height: 300px;
+    width: 500px;
+    margin-left: 140px;
+    font-size: large;
+}
+
+
+.boxes{
+    display: flex;
+    display: inline;
+    margin-left: 200px;
+    height: 100px;
+}
+.sub{
+    font-size:medium;
+   
+}
+.subtopic{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #50b74b;
+}
+.skillflex2{
+   display: flex;
+   margin-left: 30px;
+
+}
+
+
+
+
+.hamburg,
+.cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: white;
+    opacity: 0;
+}
+.dropdown.links a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 15px 0;
+    align-items: center;
+    transition: 0.2s linear;
+
+}
+.dropdown .links a:hover{
+    background-color: #50b74b;
+}
+section{
+    width: 100%;
+    min-height: 90vh;
+}
+.myservices{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    text-decoration-color: #50b74b;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: #50b74b;
+    margin-bottom: 50px;
+}
+.development{
+    display: flex;
+    flex-wrap: wrap;
+    width: 198vmin;
+    height: 10vmin;
+    background-color: black;
+    justify-content: center;
+   
+}
+.webdev{
+    
+    width: 50vmin;
+    height: 20vmin;
+    padding: 10px 10px 10px 20px;
+    margin-left: 10px;
+    border: none none transparent;
+    background-color: transparent;
+    border-radius: 6px;
+    transition: 0.2s linear;
+
+
+}
+.webdev:hover{
+    background-color: #50b74b;
+
+}
+.position{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.webcontent{
+    display: flex;
+    text-align: center;
+}
+.att{
+    margin-left: 10px;
+}
+.contact{
+    justify-content: center;
+    display: flex;
+    font-size: xx-large;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: #50b74b;
+}
+.contactcontent{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contactcontent2{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 50px;
+   
+}
+.contactbutton{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    
+    justify-content:center;
+    
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #50b74b;
+    transition: 0.2s linear;
+    font-weight: 600;
+}
+.contactbutton:hover{
+    background-color: black;
+    font-weight: 800;
+
+}
+.contactbtn{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    
+    
+    display: flex;
+    background-color: #b74b7b;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    
+    justify-content: center;
+    padding-right: 5px;
+}
+@media (max-width:401px){
+   
+   .links2{
+    display: flex;
+    justify-content: center;
+   
+    position: absolute;
+    left: 0.7cm;
+   }
+   .links{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 20px;
+   }
+   img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 2cm;
+    left :1cm
+   }
+   .surya{
+    margin-top: 250px;
+    position: relative;
+    font-size: small;
+    right: 2cm;
+    padding-left: 10px;
+   }
+   .matter{
+    font-size: x-large;
+   }
+   .flex2{
+    
+    display: flex;
+    
+    justify-content: center;
+    text-align: centre;
+    font-size: large;
+    width: 350px;
+   }
+   .subbu{
+    position: relative;
+    left: 1cm;
+   }
+ .aboutsec{
+    margin-top: 200px;
+    position: relative;
+    left: -1cm;
+ }
+ .titlecontent{
+    margin-bottom: 1cm;
+ }
+ .aboutme{
+    
+   position: relative;
+   left: 0cm;
+  margin-left: 1cm;
+   font-size: larger;
+   width: 400px;
+   text-align: left;
+   margin-bottom: 2cm;
+ }
+ .aboutcon{
+    display: flex;
+   
+    font-size: medium;
+    width:370px;
+ }
+ .resume{
+   position: relative;
+   left: 0.4cm;
+   margin-bottom: 50px;
+ }
+ .skills{
+    position: relative;
+    left: -0.5cm;
+    font-size:50px;
+}
+.boxes{
+    display: flex;
+    width: 300px;
+    display: inline;
+    position: relative;
+    height: 600px;
+    position: relative;
+    left: -14cm;
+    top: 15cm;
+}
+.ser{
+    position: relative;
+    top: 10cm;
+    left: -3cm;
+    width: 300px;
+   
+}
+.skillssec{
+    margin-bottom: 150px;
+}
+.skillflex2{
+    position: relative;
+    right: 3.4cm;
+    
+   
+}
+.myservices{
+    position: relative;
+    font-size: 100px;
+   
+    top: 2cm;
+    left: 4cm;
+  
+}
+.development{
+    display: flex;
+    width: 550px;
+    position: relative;
+    left: 0.5cm;
+    margin-bottom: 50px;
+}
+.webdev{
+    width: 70vmin;
+    height: 50vmin;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.seccon{
+    position: relative;
+    left: 4cm;
+    top:20cm
+}
+.footer{
+    text-align: center;
+    padding-left: 1cm;
+    position: relative;
+    top: 20cm;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    
+}
+
+}
+@media (min-width:403px) and (max-width :550px){
+     
+    .links2{
+        display: flex;
+        justify-content: center;
+       
+        position: absolute;
+        left: 0.7cm;
+       }
+       .links{
+        display: flex;
+        justify-content:space-between;
+        margin-right: 20px;
+       }
+       img{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 2cm;
+        left :1cm
+       }
+       .surya{
+        margin-top: 250px;
+        position: relative;
+        font-size: small;
+        right: 2cm;
+        padding-left: 10px;
+       }
+       .matter{
+        font-size: x-large;
+       }
+       .flex2{
+        
+        display: flex;
+        
+        justify-content: center;
+        text-align: centre;
+        font-size: large;
+        width: 350px;
+       }
+       .subbu{
+        position: relative;
+        left: 1cm;
+       }
+     .aboutsec{
+        margin-top: 200px;
+        position: relative;
+        left: -1cm;
+     }
+     .titlecontent{
+        margin-bottom: 1cm;
+     }
+     .aboutme{
+        
+       position: relative;
+       left: 0cm;
+      margin-left: 1cm;
+       font-size: larger;
+       width: 400px;
+       text-align: left;
+       margin-bottom: 2cm;
+     }
+     .aboutcon{
+        display: flex;
+       
+        font-size: medium;
+        width:370px;
+     }
+     .resume{
+       position: relative;
+       left: -1cm;
+       margin-bottom: 50px;
+     }
+     .skills{
+        position: relative;
+        left: -2cm;
+        font-size:50px;
+    }
+    .boxes{
+        display: flex;
+        width: 300px;
+        display: inline;
+        position: relative;
+        height: 600px;
+        position: relative;
+        left: -14cm;
+        top: 15cm;
+    }
+    .ser{
+        position: relative;
+        top: 10cm;
+        left: -3cm;
+        width: 300px;
+       
+    }
+    .skillssec{
+        margin-bottom: 150px;
+    }
+    .skillflex2{
+        position: relative;
+        right: 3.4cm;
+        
+       
+    }
+    .myservices{
+        position: relative;
+        font-size: 100px;
+       
+        top: 2cm;
+        left: 4cm;
+      
+    }
+    .development{
+        display: flex;
+        width: 550px;
+        position: relative;
+        left: 0.5cm;
+        margin-bottom: 0px;
+    }
+    .webdev{
+        width: 70vmin;
+        height: 35vmin;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .seccon{
+        position: relative;
+        left: 4cm;
+        top:20cm
+    }
+    .footer{
+        text-align: center;
+        padding-left: 1cm;
+        position: relative;
+        top: 20cm;
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+        
+    }
+    body{
+        position: relative;
+        left: 2cm;
+    }
+    
+}
